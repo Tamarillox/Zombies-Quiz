@@ -1,0 +1,97 @@
+/* Mobile: Kaugummi-Hotbar nur rechts, nicht unten */
+@media (max-width: 900px) and (orientation: landscape) {
+  .mobile-gumbar {
+    display: flex !important;
+  }
+  .desktop-gumbar {
+    display: none !important;
+  }
+  .start-mobile-center {
+    justify-content: center !important;
+    align-items: center !important;
+    min-height: 100vh !important;
+    padding-bottom: 0 !important;
+  }
+}
+@media (min-width: 901px), (orientation: portrait) {
+  .mobile-gumbar {
+    display: none !important;
+  }
+  .desktop-gumbar {
+    display: flex !important;
+  }
+}
+/*
+  global.css
+  - Mobile optimization for landscape only
+  - Hide app in portrait mode, show overlay
+  - Responsive tweaks for main game UI
+*/
+
+/* Force landscape: hide app and show overlay in portrait */
+@media screen and (orientation: portrait) {
+  #landscape-lock {
+    display: flex !important;
+  }
+  #app-root {
+    display: none !important;
+  }
+}
+@media screen and (orientation: landscape) {
+  #landscape-lock {
+    display: none !important;
+  }
+  #app-root {
+    display: block !important;
+  }
+}
+
+/* Responsive tweaks for main game UI */
+@media (max-width: 900px) and (orientation: landscape) {
+  #app-root {
+    zoom: 0.85;
+    /* fallback for browsers not supporting zoom */
+    -webkit-transform: scale(0.85);
+    -moz-transform: scale(0.85);
+    -ms-transform: scale(0.85);
+    -o-transform: scale(0.85);
+    transform: scale(0.85);
+    transform-origin: top center;
+  }
+  .max-w-2xl, .max-w-lg, .max-w-sm, .max-w-xs {
+    max-width: 98vw !important;
+  }
+  .p-6, .p-8, .md\:p-8 {
+    padding: 1rem !important;
+  }
+  .text-7xl, .text-6xl, .text-5xl, .text-4xl {
+    font-size: 2.2rem !important;
+  }
+  .text-3xl, .text-2xl {
+    font-size: 1.3rem !important;
+  }
+  .rounded-lg, .rounded-b-lg {
+    border-radius: 0.7rem !important;
+  }
+}
+
+@media (max-width: 600px) and (orientation: landscape) {
+  #app-root {
+    zoom: 0.7;
+    -webkit-transform: scale(0.7);
+    -moz-transform: scale(0.7);
+    -ms-transform: scale(0.7);
+    -o-transform: scale(0.7);
+    transform: scale(0.7);
+    transform-origin: top center;
+  }
+  .p-6, .p-8, .md\:p-8 {
+    padding: 0.5rem !important;
+  }
+  .text-7xl, .text-6xl, .text-5xl, .text-4xl {
+    font-size: 1.3rem !important;
+  }
+  .text-3xl, .text-2xl {
+    font-size: 1rem !important;
+  }
+}
