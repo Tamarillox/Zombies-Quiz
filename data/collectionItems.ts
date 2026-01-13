@@ -11,7 +11,7 @@ export const COLLECTION_ITEMS: CollectibleItem[] = [
     rarity: Rarity.COMMON, 
     type: ItemType.CARD, 
     description: 'Beantworte eine Frage richtig.', 
-    imageUrl: '/calling-cards/erster-kontakt.png',
+    imageUrl: 'calling-cards/erster-kontakt.png',
     imageFit: 'contain',
     xpReward: 100,
     quote: '"Ich lebe noch... Das bedeutet, dass ich richtig lag."'
@@ -22,7 +22,7 @@ export const COLLECTION_ITEMS: CollectibleItem[] = [
     rarity: Rarity.COMMON, 
     type: ItemType.CARD, 
     description: 'Erreiche Runde 10.', 
-    imageUrl: '/calling-cards/ueberlebensinstinkt.png',
+    imageUrl: 'calling-cards/ueberlebensinstinkt.png',
     imageFit: 'contain',
     xpReward: 1000,
     quote: '"10 Runden voller Fragen... und ich weiß immer noch nicht, was ich tue."'
@@ -35,7 +35,7 @@ export const COLLECTION_ITEMS: CollectibleItem[] = [
     rarity: Rarity.RARE, 
     type: ItemType.CARD, 
     description: 'Evakuiere zum ersten Mal erfolgreich.', 
-    imageUrl: '/calling-cards/letzter-ausweg.png',
+    imageUrl: 'calling-cards/letzter-ausweg.png',
     xpReward: 2500,
     quote: '"Ich bin raus. Das Wissen bleibt, aber die Zombies können auf mich warten."'
   },
@@ -45,7 +45,7 @@ export const COLLECTION_ITEMS: CollectibleItem[] = [
     rarity: Rarity.RARE, 
     type: ItemType.CARD, 
     description: 'Erreiche Runde 20.', 
-    imageUrl: '/calling-cards/kaltes-fleisch.png',
+    imageUrl: 'calling-cards/kaltes-fleisch.png',
     imageFit: 'contain',
     xpReward: 2500,
     quote: '"20 Runden später und ich bin immer noch ein Nerv-Quiz-Opfer."'
@@ -56,7 +56,7 @@ export const COLLECTION_ITEMS: CollectibleItem[] = [
     rarity: Rarity.RARE, 
     type: ItemType.CARD, 
     description: 'Erreiche Runde 30.', 
-    imageUrl: '/calling-cards/meister-der-horde.png',
+    imageUrl: 'calling-cards/meister-der-horde.png',
     xpReward: 2500,
     quote: '"30 Runden. Mein Gehirn ist Matsch, aber mein Wissen wächst."'
   },
@@ -66,7 +66,7 @@ export const COLLECTION_ITEMS: CollectibleItem[] = [
     rarity: Rarity.RARE, 
     type: ItemType.CARD, 
     description: 'Verdiene über 10.000 XP in einem einzigen Spiel.', 
-    imageUrl: '/calling-cards/wissensdurst.png',
+    imageUrl: 'calling-cards/wissensdurst.png',
     xpReward: 2500,
     quote: '"10.000 XP... Mein Hirn verdient Urlaub."'
   },
@@ -78,7 +78,7 @@ export const COLLECTION_ITEMS: CollectibleItem[] = [
     rarity: Rarity.DARK_OPS, 
     type: ItemType.CARD, 
     description: 'Geheim: Beende das Spiel mit exakt 115 XP.', 
-    imageUrl: '/calling-cards/elementare-praezision.png', 
+    imageUrl: 'calling-cards/elementare-praezision.png', 
     isSecret: true,
     xpReward: 10000,
     quote: '"115... Die Zahl, die alles erklärt."'
@@ -89,7 +89,7 @@ export const COLLECTION_ITEMS: CollectibleItem[] = [
     rarity: Rarity.DARK_OPS, 
     type: ItemType.CARD, 
     description: 'Geheim: Beantworte eine Frage in weniger als einer Sekunde korrekt.', 
-    imageUrl: '/calling-cards/reflex-des-jaegers.png', 
+    imageUrl: 'calling-cards/reflex-des-jaegers.png', 
     isSecret: true,
     xpReward: 10000,
     quote: '"Mein Finger war schneller als mein Gehirn. Das sollte nicht möglich sein."'
@@ -100,7 +100,7 @@ export const COLLECTION_ITEMS: CollectibleItem[] = [
     rarity: Rarity.DARK_OPS, 
     type: ItemType.CARD, 
     description: 'Geheim: Starte die Evakuierung in Runde 6 und schließe sie erfolgreich ab.', 
-    imageUrl: '/calling-cards/fruehzeitiger-abzug.png',
+    imageUrl: 'calling-cards/fruehzeitiger-abzug.png',
     isSecret: true,
     xpReward: 10000,
     quote: '"Evakuierung in Runde 6? Das war entweder Mut oder Wahnsinn."'
@@ -111,7 +111,7 @@ export const COLLECTION_ITEMS: CollectibleItem[] = [
     rarity: Rarity.DARK_OPS, 
     type: ItemType.CARD, 
     description: 'Geheim: Gib das Spiel in Runde 20 oder später auf.', 
-    imageUrl: '/calling-cards/kapitulation-der-verzweiflung.png', 
+    imageUrl: 'calling-cards/kapitulation-der-verzweiflung.png', 
     isSecret: true,
     xpReward: 10000,
     quote: '"Ich gebe auf... Aber nicht, bevor ich einen Achievement freischalte."'
@@ -122,7 +122,7 @@ export const COLLECTION_ITEMS: CollectibleItem[] = [
     rarity: Rarity.DARK_OPS, 
     type: ItemType.CARD, 
     description: 'Geheim: Erreiche Runde 55 und beantworte die letzte Frage korrekt.', 
-    imageUrl: '/calling-cards/die-ultimative-antwort.png', 
+    imageUrl: 'calling-cards/die-ultimative-antwort.png', 
     isSecret: true,
     xpReward: 10000,
     quote: '"55 Runden... Die Antwort auf alles war dieses Quiz."'
@@ -133,7 +133,7 @@ export const COLLECTION_ITEMS: CollectibleItem[] = [
     rarity: Rarity.DARK_OPS, 
     type: ItemType.CARD, 
     description: 'Geheim: Erreiche den maximalen Level.', 
-    imageUrl: '/calling-cards/prestige-gott.png', 
+    imageUrl: 'calling-cards/prestige-gott.png', 
     isSecret: true,
     xpReward: 0,
     quote: '"Ich bin maximal geprestiged. Gibt es noch etwas zu tun? Ich bin verloren."'
@@ -144,7 +144,7 @@ export const COLLECTION_ITEMS: CollectibleItem[] = [
     rarity: Rarity.DARK_OPS, 
     type: ItemType.CARD, 
     description: 'Geheim: Nutze 3 verschiedene Kaugummis in einem Spiel.', 
-    imageUrl: '/calling-cards/zuckerschock.png', 
+    imageUrl: 'calling-cards/zuckerschock.png', 
     isSecret: true,
     xpReward: 10000,
     quote: '"Drei Kaugummis in einem Spiel? Mein Gehirn ist ein Sugar-Rush-Monster."'
